@@ -160,20 +160,25 @@ header h2 a {                                                                 /*
 
 
 .species-title-gallery-category {                                               /* NOMS PLANTES GALLERY */
-    text-align: center;
     font-size: 30px;
     font-weight: bold;
     color: rgb(0, 0, 0);
     display: flex;
-    justify-content: space-around;
 }
 .species a,
-.species-title-gallery-category a {
+.species-title-gallery-category a {                                             /* COULEUR NOMS PLANTES DANS ONGLET NOM */
     color: rgb(0,0,0);
 }
 .species a:hover,
-.species-title-gallery-category a:hover {
+.species-title-gallery-category a:hover,
+.install-tillandsia-info:hover {                                                /* COULEUR NOMS PLANTES DANS ONGLET NOM AU SURVOL - LIEN DANS ONGLET REMPOTAGE AU SURVOL */
     background: rgb(0, 255, 0);
+}
+.install-tillandsia-info {                                                      /* LIEN DANS ONGLET REMPOTAGE */
+    width: 400px;
+    margin: 10px auto 0 auto;
+    font-size: 25px;
+    display: flex;
 }
 hr {                                                                            /* LIGNES DE SÉPARATION ENTRE CHAQUE ESPÈCE DE PLANTES */
     height: 5px;
