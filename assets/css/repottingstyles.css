@@ -5,6 +5,9 @@ html {
 body {
   background: url("../img/background/repotting.jpg") fixed;
 }
+main {
+  font-size: 125px;
+}
 header {
   text-align: center;
   width: 75%;

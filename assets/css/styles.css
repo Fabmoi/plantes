@@ -162,8 +162,8 @@ header h2 a {                                                                 /*
 .species-title-gallery-category {                                               /* NOMS PLANTES GALLERY */
     font-size: 30px;
     font-weight: bold;
-    color: rgb(0, 0, 0);
     display: flex;
+    justify-content: space-around;
 }
 .species a,
 .species-title-gallery-category a {                                             /* COULEUR NOMS PLANTES DANS ONGLET NOM */
@@ -171,9 +171,11 @@ header h2 a {                                                                 /*
 }
 .species a:hover,
 .species-title-gallery-category a:hover,
+.species-repotting-info:hover,
 .install-tillandsia-info:hover {                                                /* COULEUR NOMS PLANTES DANS ONGLET NOM AU SURVOL - LIEN DANS ONGLET REMPOTAGE AU SURVOL */
     background: rgb(0, 255, 0);
 }
+.species-repotting-info,
 .install-tillandsia-info {                                                      /* LIEN DANS ONGLET REMPOTAGE */
     width: 400px;
     margin: 10px auto 0 auto;
