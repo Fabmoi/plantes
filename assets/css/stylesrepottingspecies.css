@@ -42,8 +42,18 @@ border-spacing: 0;
 }
                                     /* --------------- FIN RESET CSS --------------- */
                                     /* --------------- BACKGROUND --------------- */
+
+#repotting-ferocactus-stainesii {
+    background: url("../img/background/ferocactusstainesii.jpg") fixed;
+}
+#repotting-notocactus-magnificus {
+    background: url("../img/background/notocactus.jpg") fixed;
+}
+#repotting-oreocereus-celsianus {
+    background: url("../img/background/oreocereuscelsianus.jpg") fixed;
+}
 #repotting-stetsonia-coryne {
-    background: url("../img/background/repottingstetsoniacoryne.jpg") no-repeat fixed;
+    background: url("../img/background/repottingstetsoniacoryne.jpg") fixed;
 }
                                     /* --------------- FIN  BACKGROUND --------------- */
 
