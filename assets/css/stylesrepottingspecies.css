@@ -42,7 +42,12 @@ border-spacing: 0;
 }
                                     /* --------------- FIN RESET CSS --------------- */
                                     /* --------------- BACKGROUND --------------- */
-
+#repotting-aeschynanthus-marmoratus {
+    background: url("../img/background/othersuspended.jpg") fixed;
+}
+#repotting-coryphanta-cornifera {
+    background: url("../img/background/coryphantacornifera.jpg") fixed;
+}
 #repotting-ferocactus-stainesii {
     background: url("../img/background/ferocactusstainesii.jpg") fixed;
 }
@@ -52,13 +57,16 @@ border-spacing: 0;
 #repotting-notocactus-magnificus {
     background: url("../img/background/notocactus.jpg") fixed;
 }
+#repotting-opuntiamonacanthamonstruosisvariegata {
+    background: url("../img/background/opuntiamonacanthamonstruosisvariegata.jpg") fixed;
+}
 #repotting-oreocereus-celsianus {
     background: url("../img/background/oreocereuscelsianus.jpg") fixed;
 }
 #repotting-stetsonia-coryne {
     background: url("../img/background/repottingstetsoniacoryne.jpg") fixed;
 }
-                                    /* --------------- FIN  BACKGROUND --------------- */
+                                    /* --------------- FIN BACKGROUND --------------- */
 
 a:link {                                                            /* SUPPRESSION SOULIGNEMENTS DES LIENS (BOUTONS) */
     text-decoration: none;
