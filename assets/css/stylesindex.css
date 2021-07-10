@@ -299,7 +299,7 @@ header {                                                              /* TITRE, 
                   width: 800px;
                   padding: 28px;          
                   max-width: calc(100vw - 20px);
-                  max-height: calc(100vh - 20px);
+                  max-height: calc(100vh - 100px);
                   border-radius: 10px;
                   background: linear-gradient(rgb(46,219,232), rgb(0,197,76));
                   overflow: auto;

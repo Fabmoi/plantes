@@ -45,14 +45,32 @@ border-spacing: 0;
 #repotting-aeschynanthus-marmoratus {
     background: url("../img/background/othersuspended.jpg") fixed;
 }
+#repotting-corpuscularia-lehmannii {
+    background: url("../img/background/corpuscularialehmannii.jpg") fixed;
+}
 #repotting-coryphanta-cornifera {
     background: url("../img/background/coryphantacornifera.jpg") fixed;
+}
+#repotting-crassula-pyramidalis {
+    background: url("../img/background/crassulapyramidalis.jpg") fixed;
+}
+#repotting-euphorbia-decaryi {
+    background: url("../img/background/euphorbiadecaryi.jpg") fixed;
+}
+#repotting-euphorbia-inconstantia {
+    background: url("../img/background/euphorbiainconstantia.jpg") fixed;
 }
 #repotting-ferocactus-stainesii {
     background: url("../img/background/ferocactusstainesii.jpg") fixed;
 }
+#repotting-kalanchoe-thyrsiflora {
+    background: url("../img/background/kalanchoethyrsiflora.jpg") fixed;
+}
 #repotting-lithops {
     background: url("../img/background/lithops.jpg") fixed;
+}
+#repotting-mammillaria-toluca {
+    background: url("../img/background/mammillariatoluca.jpg") fixed;
 }
 #repotting-notocactus-magnificus {
     background: url("../img/background/notocactus.jpg") fixed;
