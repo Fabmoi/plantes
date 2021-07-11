@@ -81,6 +81,9 @@ border-spacing: 0;
 #repotting-oreocereus-celsianus {
     background: url("../img/background/oreocereuscelsianus.jpg") fixed;
 }
+#repotting-solanum-quitoense-jurassica {
+    background: url("../img/background/solanumquitoensejurassica.jpg") fixed;
+}
 #repotting-stetsonia-coryne {
     background: url("../img/background/repottingstetsoniacoryne.jpg") fixed;
 }
@@ -141,7 +144,7 @@ main {                                                                  /* CONTI
     display: flex;
     flex-flow: row wrap;
 }
-.species-repotting-step {                                              /* BLOC ENGLOBANT CHAQUE SECTION */
+.species-repotting-step {                                               /* BLOC ENGLOBANT CHAQUE SECTION */
     margin: auto;
     height: 675px;
     border: 2px solid black;
@@ -149,11 +152,11 @@ main {                                                                  /* CONTI
     margin-top: 15px;
     padding-top: 15px;
 }
-.species-repotting-img {                                               /* IMAGE DANS CHAQUE SECTION */
+.species-repotting-img {                                                /* IMAGE DANS CHAQUE SECTION */
     width: 400px;
     margin: auto;
 }
-.species-repotting-expl {                                              /* TEXTE DANS CHAQUE SECTION */
+.species-repotting-expl {                                               /* TEXTE DANS CHAQUE SECTION */
     width: 450px;
     padding: 10px 5px 0 5px;
     text-align: center;

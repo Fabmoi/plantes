@@ -147,14 +147,16 @@ header h2 a {                                                                 /*
             margin: 10px 0;
             font-size: 45px;
             font-weight: bold;
+            background-color: rgba(255,255,255,0.4);
         }
         .sub-title-index-category,
         .sub-title-gallery-category {                                               /* SUB-TITLE INDEX CATÉGORIES ET GALLERY */               
             font-size: 30px;
             font-weight: bold;
+            background-color: rgba(255,255,255,0.4);
         }
         header h2 a:hover{                                                          /*ANCRES VERS PLANTES DANS SUB-TITLE AU SURVOL */
-            color: rgb(255, 0, 0);
+            background: rgb(0, 255, 0);
         }
                                                     /* --------------- FIN HEADER --------------- */
 
@@ -164,6 +166,7 @@ header h2 a {                                                                 /*
     font-weight: bold;
     display: flex;
     justify-content: space-around;
+    background-color: rgba(255,255,255,0.4);
 }
 .species a,
 .species-title-gallery-category a {                                             /* COULEUR NOMS PLANTES DANS ONGLET NOM */
@@ -172,7 +175,7 @@ header h2 a {                                                                 /*
 .species a:hover,
 .species-title-gallery-category a:hover,
 .species-repotting-info:hover,
-.install-tillandsia-info:hover {                                                /* COULEUR NOMS PLANTES DANS ONGLET NOM AU SURVOL - LIEN DANS ONGLET REMPOTAGE AU SURVOL */
+.install-tillandsia-info:hover {                                                /* COULEUR NOMS PLANTES DANS ONGLET NOM AU SURVOL - LIEN DANS GALERIE PHOTO AU SURVOL - LIEN DANS ONGLET REMPOTAGE AU SURVOL */
     background: rgb(0, 255, 0);
 }
 .species-repotting-info,
