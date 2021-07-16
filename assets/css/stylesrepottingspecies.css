@@ -81,11 +81,23 @@ border-spacing: 0;
 #repotting-oreocereus-celsianus {
     background: url("../img/background/oreocereuscelsianus.jpg") fixed;
 }
+#repotting-phalaenopsis-column {
+    background: url("../img/background/phalaenopsiscolumn.jpg") fixed;
+}
+#repotting-pilosocereus-azureus {
+    background: url("../img/background/pilosocereusazureus.jpg") fixed;
+}
 #repotting-solanum-quitoense-jurassica {
     background: url("../img/background/solanumquitoensejurassica.jpg") fixed;
 }
 #repotting-stetsonia-coryne {
     background: url("../img/background/repottingstetsoniacoryne.jpg") fixed;
+}
+#repotting-vanilla-planifolia {
+    background: url("../img/background/vanillaplanifolia.jpg") fixed;
+}
+#repotting-yucca-elephantipes {
+    background: url("../img/background/yuccaelephantipes.jpg") fixed;
 }
                                     /* --------------- FIN BACKGROUND --------------- */
 
