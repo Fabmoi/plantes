@@ -276,9 +276,12 @@ header {                                                              /* TITRE, 
                   opacity: 0;
                 }
                 .modal-facebook-img {                                                 /* ICÔNE FACEBOOK DONNANT VERS LE PROFIL FACEBOOK DE L'AUTEUR SE TROUVANT DANS LE modal.html */
-                  max-width: 25px;
-                  max-height: 25px;
-                  margin-left: 100PX;
+                  max-width: 50px;
+                  max-height: 50px;
+                  margin-left: 100px;
+                }
+                .link-youtube {                                                       /* LIENS VERS MA CHAÎNE YOUTUBE DANS MODAL-UPDATE */
+                  font-weight: bold;
                 }
                                                       /* --------------- FIN PROCESSUS CHANGEMENT IMAGE AU SURVOL CURSEUR --------------- */
                                                       
