@@ -491,5 +491,8 @@ main {                                                                /* CONTIEN
                                       .site-desc {                                                        /* SECTION CONTENANT TITLE, SUB-TITLE ET SUB-SUB-TITLE */
                                         margin: 12% auto 1% auto;
                                       }
+                                      .menu-scroll {                                                      /* MASQUAGE LE MENU DÉROULANT */
+                                        display: none;
+                                      }
                                     }
                             /* --------------- FIN RESPONSIVE --------------- */
