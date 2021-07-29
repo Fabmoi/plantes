@@ -1,3 +1,4 @@
+/*
 (function() {
 
   var scrollY = function () {
@@ -5,9 +6,7 @@
     var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
     return supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
   }
-/*
-COLLE LE MENU LORS DU SCROLL EN ARRIVANT AU TOP
-*/
+
 var element = document.querySelector('.menu-scroll')
 var top = element.getBoundingClientRect().top + scrollY()
 var onScroll = function () {
@@ -21,3 +20,8 @@ var onScroll = function () {
    }  
 window.addEventListener('scroll', onScroll)
 })()
+*/ 
+
+/*
+COLLE LE MENU LORS DU SCROLL EN ARRIVANT AU TOP
+*/
