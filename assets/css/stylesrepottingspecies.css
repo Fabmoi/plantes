@@ -87,7 +87,8 @@ border-spacing: 0;
 #repotting-pilosocereus-azureus {
     background: url("../img/background/pilosocereusazureus.jpg") fixed;
 }
-#repotting-solanum-quitoense-jurassica {
+#repotting-solanum-quitoense-jurassica,
+#sowing-solanum-quitoense-jurassica {
     background: url("../img/background/solanumquitoensejurassica.jpg") fixed;
 }
 #repotting-stetsonia-coryne {
@@ -134,6 +135,7 @@ header {
 
 .styled-btn-welcome,
 .styled-btn-index,
+.styled-btn-repotting,
 .styled-btn-gallery {                                                   /* STYLES BOUTON DE NAVIGATION */
     margin: 5px 0px 5px 0px;
     border: 1px solid rgb(0,0,0); 
@@ -144,6 +146,7 @@ header {
 }            
 .styled-btn-welcome:hover,
 .styled-btn-index:hover,
+.styled-btn-repotting:hover,
 .styled-btn-gallery:hover {                                             /* STYLES BOUTON DE NAVIGATION AU SURVOL */
     background-color: rgb(0,255,255);
     background-image: linear-gradient(to left, rgb(0,255,255) 0%, rgb(0, 255, 76) 100%);
@@ -175,6 +178,9 @@ main {                                                                  /* CONTI
     line-height: normal;
     font-weight: bold;
 
+}
+.sowing-date {
+    font-size: 18px;
 }
                                     /* --------------- FIN MAIN  --------------- */
                                     /* --------------- DÉBUT FOOTER  --------------- */
