@@ -1,4 +1,4 @@
-/*
+
 (function() {
 
   var scrollY = function () {
@@ -20,7 +20,7 @@ var onScroll = function () {
    }  
 window.addEventListener('scroll', onScroll)
 })()
-*/ 
+
 
 /*
 COLLE LE MENU LORS DU SCROLL EN ARRIVANT AU TOP

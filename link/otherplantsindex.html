@@ -5,25 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Pangolin" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
     <script src="../assets/js/ariatabs.js" type="module" Defer></script>
         <title>Mes Autres plantes vertes</title>
-    </head>
+</head>
     <body onload="prot()" id="other-plants-background">
         <header>                                                                <!-- TITLE, SUB-TITLE ET ANCRES VERS PLANTES -->
            <div>
                 <h1 class="title-index-category" id="top">MES AUTRES PLANTES VERTES</h1>
             </div>
-                <h2 class="sub-title-index-category">Végétaux présents ici:
-                    <a href="#anthurium">Anthurium,</a>
-                    <a href="#strawberry">Caladium strawberry,</a>
-                    <a href="#jurassica">Solanum quitoense jurassica,</a>
-                    <a href="#sensation">Spathiphyllum sensation,</a>
-                    <a href="#wallisii">Spathiphyllum wallisii.</a>
-                </h2>
+            <section class="all-menu-scroll">                                       <!-- MENU DÉROULANT -->
+                <ul class="menu-scroll" onmouseover="changetext()" onmouseout="starttext()">   
+                  <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+                    <ul>
+                      <li><a href="#">Choisir une plante ...</a>
+                        <ul>
+                            <li><a href="#anthurium">Anthurium</a></li>
+                            <li><a href="#strawberry">Caladium strawberry</a></li>
+                            <li><a href="#jurassica">Solanum quitoense jurassica</a></li>
+                            <li><a href="#sensation">Spathiphyllum sensation</a></li>
+                            <li><a href="#wallisii">Spathiphyllum wallisii</a></li>
+                        </ul>
+                      </li>
+                            <li><a href="#top">Haut de la page</a></li>
+                            <li><a href="otherplantsgallery.html">Voir la galerie photos</a></li>
+                            <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </section>
         </header>
         <hr><hr>
         <section class="index-category-system-tabs">                            <!-- ANTHURIUM-->
@@ -162,11 +176,11 @@
             </div>
         </section>
         <hr>
-        <nav class="btn-index-category">                                        <!-- BOUTONS DE NAVIGATION ET TOP -->
-            <button class="styled-btn-gallery"><a href="otherplantsgallery.html">Galerie photos de mes Autres Plantes</a></button>
-            <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
-            <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
-        </nav>
-
-    </body>
+<nav class="btn-index-category">                                        <!-- BOUTONS DE NAVIGATION ET TOP -->
+<button class="styled-btn-gallery"><a href="otherplantsgallery.html">Galerie photos de mes Autres Plantes</a></button>
+<button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
+<button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
+</nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
+</body>
 </html>

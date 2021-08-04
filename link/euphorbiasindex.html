@@ -5,30 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Pangolin" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
     <script src="../assets/js/ariatabs.js" type="module" Defer></script>
         <title>Mes Euphorbes</title>
-    </head>
+</head>
     <body onload="prot()" id="euphorbias-background">
         <header>                                                                <!-- TITLE, SUB-TITLE ET ANCRES VERS PLANTES -->
           <div>
             <h1 class="title-index-category" id="top">MES EUPHORBES</h1>
           </div>
-            <h2 class="sub-title-index-category">Végétaux présents ici: 
-              <a href="#aeruginosa">aeruginosa,</a>
-              <a href="#aeruginosa">decaryi,</a>
-              <a href="#enopla">enopla,</a> 
-              <a href="#erythrea">erythrea,</a> 
-              <a href="#horrida">horrida,</a>
-              <a href="#inconstantia">inconstantia,</a>
-              <a href="#variegata">mammillaris variegata,</a> 
-              <a href="#pseudoglobosa">pseudoglobosa,</a> 
-              <a href="#trigona">trigona,</a> 
-              <a href="#trigonarubra">trigona rubra.</a>
-            </h2>
+          <section class="all-menu-scroll">                                       <!-- MENU DÉROULANT -->
+            <ul class="menu-scroll" onmouseover="changetext()" onmouseout="starttext()">   
+              <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+                <ul>
+                  <li><a href="#">Choisir une plante ...</a>
+                    <ul>
+                        <li><a href="#aeruginosa">Euphorbia aeruginosa</a></li>
+                        <li><a href="#decaryi">Euphorbia decaryi</a></li>
+                        <li><a href="#enopla">Euphorbia enopla</a></li>
+                        <li><a href="#erythrea">Euphorbia erythrea</a></li>
+                        <li><a href="#horrida">Euphorbia horrida</a></li>
+                        <li><a href="#inconstantia">Euphorbia inconstantia</a></li>
+                        <li><a href="#mammillarisvariegata">Euphorbia mammillaris variegata</a></li>
+                        <li><a href="#pseudoglobosa">Euphorbia pseudoglobosa</a></li>
+                        <li><a href="#trigona">Euphorbia trigona</a></li>
+                        <li><a href="#trigonarubra">Euphorbia trigona rubra</a></li>  
+                    </ul>
+                  </li>
+                      <li><a href="#top">Haut de la page</a></li>
+                      <li><a href="euphorbiasgallery.html">Voir la galerie photos</a></li>
+                      <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+                </ul>
+              </li>
+            </ul>
+          </section>
         </header>
         <hr><hr>
         <section class="index-category-system-tabs">                            <!-- EUPHORBIA AERUGINOSA -->
@@ -291,11 +305,11 @@
           </div>
         </section>
         <hr>
-
-        <nav class="btn-index-category">                                        <!-- BOUTONS DE NAVIGATION ET TOP -->
-          <button class="styled-btn-gallery"><a href="euphorbiasgallery.html">Galerie photos de mes Euphorbes</a></button>
-          <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
-          <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
-      </nav>
+<nav class="btn-index-category">                                        <!-- BOUTONS DE NAVIGATION ET TOP -->
+  <button class="styled-btn-gallery"><a href="euphorbiasgallery.html">Galerie photos de mes Euphorbes</a></button>
+  <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
+  <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
+</nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
     </body>
 </html>

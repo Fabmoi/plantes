@@ -5,38 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Pangolin" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
     <script src="../assets/js/ariatabs.js" type="module" Defer></script>
         <title>Mes Phalaenopsis</title>
-  </head>
+</head>
     <body onload="prot()" id="phalaenopsis-background">
         <header>                                                                <!-- TITLE, SUB-TITLE ET ANCRES VERS PLANTES -->
            <div>
                 <h1 class="title-index-category" id="top">MES PHALAENOPSIS</h1>
               </div>
-                <h2 class="sub-title-index-category">Végétaux présents ici:
-                        <a href="#blanchecoeurjaune">blanche coeur jaune,</a>
-                        <a href="#blanchecoeurmauve">blanche coeur mauve,</a>
-                        <a href="#column">colonne,</a>
-                        <a href="#fullersgoldenstripe">fuller's golden stripe,</a>
-                        <a href="#fullerssunset">fuller's sunset,</a>
-                        <a href="#jaune">jaune,</a>
-                        <a href="#jaunetachetee">jaune tachetée,</a>
-                        <a href="#magicart">magic art,</a>
-                        <a href="#papagayo">papagayo,</a>
-                        <a href="#petiteblanchesuspendue">petite blanche suspendue,</a>
-                        <a href="#petitemauvesuspendue">petite mauve suspendue,</a>
-                        <a href="#petiteroseclaircolonne">petite rose clair colonne,</a>
-                        <a href="#petiterosefonceecolonne">petite rose foncée colonne,</a>
-                        <a href="#purplespotted">purple spotted,</a>
-                        <a href="#rosecoeurcolore">rose coeur coloré,</a>
-                        <a href="#rosemouchetee">rose mouchetée,</a>
-                        <a href="#surfsong">surfsong,</a>
-                        <a href="#suspended">suspension,</a>
-                        <a href="#yellowcolonne">yellow colonne.</a> 
+              <section class="all-menu-scroll">                                       <!-- MENU DÉROULANT -->
+                <ul class="menu-scroll" onmouseover="changetext()" onmouseout="starttext()">   
+                  <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+                    <ul>
+                      <li><a href="#">Choisir une plante ...</a>
+                        <ul>
+                                <li><a href="#blanchecoeurjaune">blanche coeur jaune</a></li>
+                                <li><a href="#blanchecoeurmauve">blanche coeur mauve</a></li>
+                                <li><a href="#column">colonne</a></li>
+                                <li><a href="#fullersgoldenstripe">fuller's golden stripe</a></li>
+                                <li><a href="#fullerssunset">fuller's sunset</a></li>
+                                <li><a href="#jaune">jaune</a></li>
+                                <li><a href="#jaunetachetee">jaune tachetée</a></li>
+                                <li><a href="#magicart">magic art</a></li>
+                                <li><a href="#papagayo">papagayo</a></li>
+                                <li><a href="#petiteblanchesuspendue">petite blanche suspendue</a></li>
+                                <li><a href="#petitemauvesuspendue">petite mauve suspendue</a></li>
+                                <li><a href="#petiteroseclaircolonne">petite rose clair colonne</a></li>
+                                <li><a href="#petiterosefonceecolonne">petite rose foncée colonne</a></li>
+                                <li><a href="#purplespotted">purple spotted</a></li>
+                                <li><a href="#rosecoeurcolore">rose coeur coloré</a></li>
+                                <li><a href="#rosemouchetee">rose mouchetée</a></li>
+                                <li><a href="#surfsong">surfsong</a></li>
+                                <li><a href="#suspended">suspension</a></li>
+                                <li><a href="#yellowcolonne">yellow colonne</a></li>
+                        </ul>
+                      </li>
+                                <li><a href="#top">Haut de la page</a></li>
+                                <li><a href="phalaenopsisgallery.html">Voir la galerie photos</a></li>
+                                <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+                    </ul>
+                  </li>
+                </ul>
+        </section>
         </header>
             <hr><hr>
       <section class="index-category-system-tabs">                              <!-- BLANCHE COEUR JAUNE -->
@@ -557,10 +572,11 @@
         </div>
       </section>
         <hr>
-      <nav class="btn-index-category">                                          <!-- BOUTONS DE NAVIGATION ET TOP -->
-          <button class="styled-btn-gallery"><a href="phalaenopsisgallery.html">Galerie photos de mes Phalaenopsis</a></button>
-          <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
-          <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
-      </nav>
-    </body>
+<nav class="btn-index-category">                                          <!-- BOUTONS DE NAVIGATION ET TOP -->
+    <button class="styled-btn-gallery"><a href="phalaenopsisgallery.html">Galerie photos de mes Phalaenopsis</a></button>
+    <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
+    <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
+</nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
+</body>
 </html>

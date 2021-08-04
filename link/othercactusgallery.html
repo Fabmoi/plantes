@@ -5,33 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Pangolin" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
         <title>Galerie photo de mes autres Cactus</title>
-    </head>
+</head>
 <body onload="prot()" id="other-cactus-background">
 <main>
     <header>                                                                    <!-- TITLE, SUB-TITLE ET ANCRES VERS PLANTES -->
             <div>
                 <h1 class="title-gallery-category" id="top"> Galerie photo de mes autres Cactus</h1>
             </div>
-            <h2 class="sub-title-gallery-category">Végétaux présents ici: 
-                <a href="#myriostigma">Astrophytum myriostigma,</a>  
-                <a href="#cornifera">Coryphanta cornifera,</a>  
-                <a href="#grusonii">Echinocactus grusonii,</a>
-                <a href="#multicostatus">Echinofossulocactus multicostatus,</a>
-                <a href="#subdenudata">Echinopsis subdenudata,</a>
-                <a href="#espostoa">Espostoa,</a>
-                <a href="#glaucescens">Ferocactus glaucescens,</a> 
-                <a href="#stainesii">Ferocactus stainesii,</a> 
-                <a href="#opuntia">Opuntia,</a>
-                <a href="#monacanthamonstruosisvariegata">Opuntia monacantha monstruosis variegata,</a>
-                <a href="#celsianus">Oreocereus celsianus,</a>
-                <a href="#celsianus">Pilosocereus azureus,</a>
-                <a href="#coryne">Stetsonia coryne.</a>
-            </h2>  
+            <section class="all-menu-scroll">                                   <!-- MENU DÉROULANT -->
+                <ul class="menu-scroll" onmouseover="changetext()" onmouseout="starttext()">   
+                    <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+                        <ul>
+                            <li><a href="#">Choisir une plante ...</a>
+                                <ul>
+                                    <li><a href="#myriostigma">Astrophytum myriostigma</a></li>
+                                    <li><a href="#cornifera">Coryphanta cornifera</a></li>
+                                    <li><a href="l#grusonii">Echinocactus grusonii</a></li>
+                                    <li><a href="#multicostatus">Echinofossulocactus multicostatus</a></li>
+                                    <li><a href="#subdenudata">Echinopsis subdenudata</a></li>
+                                    <li><a href="#espostoa">Espostoa</a></li>
+                                    <li><a href="#glaucescens">Ferocactus glaucescens</a></li>
+                                    <li><a href="#stainesii">Ferocactus stainesii</a></li>
+                                    <li><a href="#opuntia">Opuntia</a></li>
+                                    <li><a href="#monacanthamonstruosisvariegata">Opuntia monacantha monstruosis variegata</a></li>
+                                    <li><a href="#celsianus">Oreocereus celsianus</a></li>
+                                    <li><a href="#azureus">Pilosocereus azureus</a></li>
+                                    <li><a href="#coryne">Stetsonia coryne</a></li>  
+                                </ul>
+                            </li>
+                                <li><a href="#top">Haut de la page</a></li>
+                                <li><a href="othercactusindex.html">Voir les fiches infos</a></li>
+                                <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
     </header>
             <hr>
             <div class="species-title-gallery-category" id="myriostigma">Astrophytum myriostigma
@@ -192,5 +206,6 @@
     <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
     <button class="styled-btn-index"><a href="othercactusindex.html">Page des autres Cactus</a></button>
 </nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
 </body>
 </html>

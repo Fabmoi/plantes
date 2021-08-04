@@ -5,25 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Pangolin" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
     <script src="../assets/js/ariatabs.js" type="module" Defer></script>
         <title>Mes Gymnocalycium</title>
-    </head>
+</head>
     <body onload="prot()" id="gymnocalicium-background">
         <header>                                                                <!-- TITLE, SUB-TITLE ET ANCRES VERS PLANTES -->
             <div>
                 <h1 class="title-index-category" class= "top">MES GYMNOCALYCIUM</h1>
             </div>
-                <h2 class="sub-title-index-category">Végétaux présents ici: 
-                    <a href="#andreae"> andreae,</a> 
-                    <a href="#baldianum"> baldianum,</a> 
-                    <a href="#mihanovicii"> mihanovicii,</a> 
-                    <a href="#pflanzii"> pflanzii,</a> 
-                    <a href="#quehlianum"> quehlianum.</a>
-                </h2>
+            <section class="all-menu-scroll">                                       <!-- MENU DÉROULANT -->
+                <ul class="menu-scroll" onmouseover="changetext()" onmouseout="starttext()">   
+                  <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+                    <ul>
+                      <li><a href="#">Choisir une plante ...</a>
+                        <ul>
+                            <li><a href="#andreae">Gymnocalycium andreae</a></li>
+                            <li><a href="#baldianum">Gymnocalycium baldianum</a></li>
+                            <li><a href="#mihanovicii">Gymnocalycium mihanovicii</a></li>
+                            <li><a href="#pflanzii">Gymnocalycium pflanzii</a></li>
+                            <li><a href="#quehlianum">Gymnocalycium quehlianum</a></li>
+                        </ul>
+                      </li>
+                            <li><a href="#top">Haut de la page</a></li>
+                            <li><a href="gymnocaliciumgallery.html">Voir la galerie photos</a></li>
+                            <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </section>
         </header>
                 <hr><hr>
         <section class="index-category-system-tabs">                            <!-- ANDREAE -->
@@ -158,10 +172,11 @@
             </div>
         </section>
         <hr>
-        <nav class="btn-index-category">                                        <!-- BOUTONS DE NAVIGATION ET TOP -->
-            <button class="styled-btn-gallery"><a href="gymnocaliciumgallery.html">Galerie photos de mes Gymnocalycium</a></button>
-            <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
-            <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
-        </nav>
-    </body>
+<nav class="btn-index-category">                                        <!-- BOUTONS DE NAVIGATION ET TOP -->
+    <button class="styled-btn-gallery"><a href="gymnocaliciumgallery.html">Galerie photos de mes Gymnocalycium</a></button>
+    <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
+    <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
+</nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
+</body>
 </html>

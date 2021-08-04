@@ -5,29 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Pangolin" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
         <title>Galerie photo de mes Calathea</title>
-    </head>
+</head>
 <body onload="prot()" id="calathea-background">
 	<main>    
 	<header> 																	<!-- TITLE, SUB-TITLE ET ANCRES VERS PLANTES -->
             <div>
 				<h1 class="title-gallery-category" id="top"> Galerie photo de mes Calathea</h1>
 			</div> 
-				<h2 class="sub-title-gallery-category">Végétaux présents ici: 
-					<a href="#crocata">crocata,</a> 
-					<a href="#freddie">freddie,</a> 
-					<a href="#lancifolia">lancifolia,</a> 
-					<a href="#leuconera">leuconera,</a> 
-					<a href="#makoyana">makoyana,</a>
-					<a href="#orbifolia">orbifolia,</a>
-					<a href="#ornatabeautystar">ornata beauty star,</a>
-					<a href="#roseopictadottie">roseopicta dottie,</a> 
-					<a href="#vittata">vittata.</a>
-				</h2>
+			<section class="all-menu-scroll">                                       <!-- MENU DÉROULANT -->
+				<ul class="menu-scroll" onmouseover="changetext()" onmouseout="starttext()">   
+					<li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+						<ul>
+							<li><a href="#">Choisir une plante ...</a>
+								<ul>
+									<li><a href="#crocata">Calathea crocata</a></li>
+									<li><a href="#freddie">Calathea freddie</a></li>
+									<li><a href="#lancifolia">Calathea lancifolia</a></li>
+									<li><a href="#leuconera">Calathea leuconera</a></li>
+									<li><a href="#makoyana">Calathea makoyana</a></li>
+									<li><a href="#orbifolia">Calathea orbifolia</a></li>
+									<li><a href="#ornatabeautystar">Calathea ornata beauty star</a></li>
+									<li><a href="#roseopictadottie">Calathea roseopicta dottie</a></li>   
+								</ul>
+							</li>
+									<li><a href="#top">Haut de la page</a></li>
+									<li><a href="calatheaindex.html">Voir les fiches infos</a></li>
+									<li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+						</ul>
+					</li>
+				</ul>
+			</section>
     </header>
 			<hr>
 			<div class="species-title-gallery-category" id="crocata">Calathea crocata
@@ -116,5 +129,6 @@
     <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
     <button class="styled-btn-index"><a href="calatheaindex.html">Page des Calathea</a></button>
 </nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
 </body>
 </html>
