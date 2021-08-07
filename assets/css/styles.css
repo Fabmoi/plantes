@@ -316,7 +316,7 @@ section {                                                                       
                 }
                 @media screen and (max-width: 1080px) {                                     /* ÉCRAN MAXIMUM 1080PX DE LARGE */
                     header {                                                                        /* BLOC ENGLOBANT TITLE ET SUB-TITLE */
-                        padding-top: 25px;
+                        padding-top: 30px;
                     }     
                     .index-category-system-tabs {                                                   /* SECTION ENGLOBANT TOUT LE SYSTÈME */
                         width: 100%;

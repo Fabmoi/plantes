@@ -42,6 +42,9 @@ border-spacing: 0;
 }
                                     /* --------------- FIN RESET CSS --------------- */
                                     /* --------------- BACKGROUND --------------- */
+#install-nepenthes-frame {
+    background: url("../img/background/nepenthescadre.jpg") fixed;
+}
 #repotting-aeschynanthus-marmoratus {
     background: url("../img/background/othersuspended.jpg") fixed;
 }
