@@ -5,25 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel='stylesheet' type='text/css'/>
-    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
     <script src="../assets/js/ariatabs.js" type="module" Defer></script>
         <title>Mes Carnivores</title>
-    </head>
+</head>
     <body onload="prot()" id="carnivorous-background">
         <header>                                                                <!-- TITLE, SUB-TITLE ET ANCRES VERS PLANTES -->
             <div>
               <h1 class="title-index-category" id="top">MES CARNIVORES</h1>
             </div>
-                <h2 class="sub-title-index-category">Végétaux présents ici: 
-                  <a href="#muscipula">Dionaea muscipula,</a>  
-                  <a href="#Nepenthes">Nepenthes,</a>
-                  <a href="#nepenthescadre">Nepenthes en cadre,</a>
-                  <a href="#Pinguicula">Pinguicula,</a> 
-                  <a href="#purpurea">Sarracenia purpurea.</a>
-                </h2>
+        <section class="all-menu-scroll">                                       <!-- MENU DÉROULANT -->
+          <ul class="menu-scroll">   
+            <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+              <ul>
+                <li><a href="#">Choisir une plante ...</a>
+                  <ul>
+                    <li><a href="#muscipula">Dionaea muscipula</a></li>
+                    <li><a href="#Nepenthes">Nepenthes</a></li>
+                    <li><a href="#nepenthescadre">Nepenthes en cadre</a></li>
+                    <li><a href="#pinguicula">Pinguicula</a></li>
+                    <li><a href="l#purpurea">Sarracenia purpurea</a></li>
+                  </ul>
+                </li>
+                    <li><a href="#top">Haut de la page</a></li>
+                    <li><a href="carnivorousgallery.html">Voir la galerie photos</a></li>
+                    <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
         </header>
                 <hr><hr>
       <section class="index-category-system-tabs">                              <!-- DIONAEA MUSCIPULA -->
@@ -157,13 +169,12 @@
         </div>
         <div class="index-category-tab-content" id="purpurea6" hidden="hidden">Je prépare un mélange de fibre de coco avec du sable de rivière et de la pouzzolane. <br/>Je la garde dans un pot en plastique de bonne taille. <br/> Cache-pot blanc pour qu'il n'absorbe pas trop la chaleur du soleil en été.
         </div>
-      </section>
-        
-      <nav class="btn-index-category">                                          <!-- BOUTONS DE NAVIGATION ET TOP -->
-        <button class="styled-btn-gallery"><a href="carnivorousgallery.html">Galerie photos de mes Carnivores</a></button>
-        <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
-        <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
-    </nav>
-
-    </body>
+      </section>      
+<nav class="btn-index-category">                                                <!-- BOUTONS DE NAVIGATION ET TOP -->
+  <button class="styled-btn-gallery"><a href="carnivorousgallery.html">Galerie photos de mes Carnivores</a></button>
+  <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
+  <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
+</nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
+</body>
 </html>

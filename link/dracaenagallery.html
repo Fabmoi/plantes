@@ -5,23 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel='stylesheet' type='text/css'/>
-    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
         <title>Galerie photo de mes Dracaena</title>
-    </head>
+</head>
 <body onload="prot()" id="dracaena-background">
  <main>   
 	<header>                                                                    <!-- TITLE, SUB-TITLE ET ANCRES VERS PLANTES -->
             <div>
                 <h1 class="title-gallery-category" id="top"> Galerie photo de mes Dracaena</h1>
             </div> 
-                <h2 class="sub-title-gallery-category">Végétaux présents ici: 
-                    <a href="#dracaena">Dracaena,</a> 
-                    <a href="#fragrans">Dracaena fragrans,</a>
-                    <a href="#surculosa">Dracaena surculosa,</a>
-                </h2>        
+        <section class="all-menu-scroll">                                       <!-- MENU DÉROULANT -->
+            <ul class="menu-scroll">   
+                <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+                <ul>
+                    <li><a href="#">Choisir une plante ...</a>
+                    <ul>
+                        <li><a href="#Dracaena">Dracaena</a></li>
+                        <li><a href="#fragrans">Dracaena fragrans</a></li>
+                        <li><a href="#surculosa">Dracaena surculosa</a></li>
+                    </ul>
+                    </li>
+                        <li><a href="#top">Haut de la page</a></li>
+                        <li><a href="dracaenaindex.html">Voir les fiches infos</a></li>
+                        <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+                </ul>
+                </li>
+            </ul>
+        </section>      
     </header>
             <hr>
             <div class="species-title-gallery-category" id="Dracaena">Dracaena
@@ -60,5 +72,6 @@
     <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
     <button class="styled-btn-index"><a href="dracaenaindex.html">Page des Dracaena</a></button>
 </nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
 </body>
 </html>
