@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
         <title>Galerie photo de mes Notocactus</title>
@@ -15,10 +16,24 @@
             <div>
                 <h1 class="title-gallery-category" id="top"> Galerie photo de mes Notocactus</h1>
             </div>
-                <h2 class="sub-title-gallery-category">Végétaux présents ici:
-                    <a href="#haselbergii"> haselbergii,</a>
-                    <a href="#magnificus"> magnificus.</a>
-                </h2>        
+            <section class="all-menu-scroll">                                       <!-- MENU DÉROULANT -->
+                <ul class="menu-scroll">   
+                    <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+                        <ul>
+                            <li><a href="#">Choisir une plante ...</a>
+                                <ul>
+                                    <li><a href="#haselbergii">haselbergii</a></li>
+                                    <li><a href="#magnificus">magnificus</a></li>
+                                    <li><a href="#mammulosus">mammulosus</a></li>
+                                </ul>
+                            </li>
+                                    <li><a href="#top">Haut de la page</a></li>
+                                    <li><a href="notocactusgallery.html">Voir la galerie photos</a></li>
+                                    <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>     
     </header>
             <hr>
             <div class="species-title-gallery-category" id="haselbergii">haselbergii
@@ -36,12 +51,23 @@
                 <a href="notocactusindex.html#magnificus">Voir la fiche info</a>
             </div>
             <hr>
-    <section>                                                                   <!-- MAGNIFICUS -->
+    <section>                                                                   <!-- MAMMULOSUS -->
         <img class="flex" src="../assets/img/notocactus/gallery/magnificus(1).jpg" alt=" magnificus" title=" magnificus"/>
         <img class="flex" src="../assets/img/notocactus/gallery/magnificus(2).jpg" alt=" magnificus" title=" magnificus"/>
         <img class="flex" src="../assets/img/notocactus/gallery/magnificus(3).jpg" alt=" magnificus" title=" magnificus"/>
         <img class="flex" src="../assets/img/notocactus/gallery/magnificus(4).jpg" alt=" magnificus" title=" magnificus"/>
         <img class="flex" src="../assets/img/notocactus/gallery/magnificus(5).jpg" alt=" magnificus" title=" magnificus"/>
+    </section>
+    <hr>
+            <div class="species-title-gallery-category" id="mammulosus">mammulosus
+                <a href="notocactusindex.html#mammulosus">Voir la fiche info</a>
+            </div>
+            <hr>
+    <section>                                                                   <!-- MAGNIFICUS -->
+        <img class="flex" src="../assets/img/notocactus/gallery/mammulosus(1).jpg" alt=" mammulosus" title=" mammulosus"/>
+        <img class="flex" src="../assets/img/notocactus/gallery/mammulosus(2).jpg" alt=" mammulosus" title=" mammulosus"/>
+        <img class="flex" src="../assets/img/notocactus/gallery/mammulosus(3).jpg" alt=" mammulosus" title=" mammulosus"/>
+        <img class="flex" src="../assets/img/notocactus/gallery/mammulosus(4).jpg" alt=" mammulosus" title=" mammulosus"/>
     </section>
 </main>
 <nav class="btn-index-category">                                                <!-- BOUTONS DE NAVIGATION ET TOP -->
@@ -49,5 +75,6 @@
     <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
     <button class="styled-btn-index"><a href="notocactusindex.html">Page des autres Notocactus</a></button>
 </nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
 </body>
 </html>

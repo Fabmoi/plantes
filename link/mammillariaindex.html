@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
     <script src="../assets/js/ariatabs.js" type="module" Defer></script>
@@ -15,10 +16,24 @@
             <div>
                 <h1 class="title-index-category" class= "top">MES MAMMILLARIA</h1>
             </div>
-                <h2 class="sub-title-index-category">Végétaux présents ici: 
-                    <a href="#anguinea"> elongata anguinea,</a>
-                    <a href="#anguinea"> toluca.</a>
-                </h2>
+            <section class="all-menu-scroll">                                    <!-- MENU DÉROULANT -->
+                <ul class="menu-scroll">   
+                    <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+                    <ul>
+                        <li><a href="#">Choisir une plante ...</a>
+                        <ul>
+                            <li><a href="#anguinea">elongata anguinea</a></li>
+                            <li><a href="#longimamma">longimamma</a></li>
+                            <li><a href="#toluca">toluca</a></li>
+                        </ul>
+                        </li>
+                            <li><a href="#top">Haut de la page</a></li>
+                            <li><a href="mammillariagallery.html">Voir la galerie photos</a></li>
+                            <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </section>
         </header>
                 <hr><hr>
         <section class="index-category-system-tabs">                            <!-- ELONGATA ANGUINEA-->
@@ -48,6 +63,36 @@
             </div>
         </section>
         <hr>
+        <section class="index-category-system-tabs">                            <!-- LONGIMAMMA -->
+            <nav-tabs class="index-category-nav-tabs" id="longimamma">
+                <a href="#longimamma1" aria-selected="true">Nom</a>
+                <a href="#longimamma2">Exposition en été</a>
+                <a href="#longimamma3">Exposition en hiver</a>
+                <a href="#longimamma4">Arrosage en été</a>
+                <a href="#longimamma5">Arrosage en hiver</a>
+                <a href="#longimamma6">Rempotage</a>
+            </nav-tabs>    
+            <div class="index-category-tab-content" id="longimamma1"><span class="species">longimamma<a href="mammillariagallery.html#longimamma">Voir la galerie photo</a></span>
+                    <img class="flex2" src="../assets/img/mammillaria/index/longimamma(1).jpg" alt="longimamma" title="longimamma"/>
+                    <img class="flex2" src="../assets/img/mammillaria/index/longimamma(2).jpg" alt="longimamma" title="longimamma"/>
+                    <img class="flex2" src="../assets/img/mammillaria/index/longimamma(3).jpg" alt="longimamma" title="longimamma"/>
+                    <img class="flex2" src="../assets/img/mammillaria/index/longimamma(4).jpg" alt="longimamma" title="longimamma"/>
+                    <img class="flex2" src="../assets/img/mammillaria/index/longimamma(5).jpg" alt="longimamma" title="longimamma"/>
+            </div>   
+            <div class="index-category-tab-content" id="longimamma2" hidden="hidden">Je le mets dehors à partir de la deuxième quinzaine de Mai ou début Juin jusque courant Octobre en plein soleil direct toute la journée. <br/>Je ne le laisse pas dehors si les nuits sont trop froides comme par exemple sous les 10°C. <br/>Doit avoir été acclimaté avant de rester en plein soleil.
+            </div>
+            <div class="index-category-tab-content" id="longimamma3" hidden="hidden">Je le laisse en intérieur dans un endroit très lumineux recevant le soleil direct contre une fenêtre ou la température ne descendra jamais sous les 10°C.
+            </div>
+            <div class="index-category-tab-content" id="longimamma4" hidden="hidden">Je ne l'arrose que peu durent de longues périodes chaudes sans pluie. <br/>En général par bassinage car, la chaleur et le soleil feront sécher la motte assez rapidement sans risque que la moisissure ne s'installe.
+            </div>
+            <div class="index-category-tab-content" id="longimamma5" hidden="hidden">Je ne l'arrose pas du tout durant plusieurs mois. <br/> Sauf si je vois qu'il commence à se fripper (ce qui n'est pas toujours évident à voir).
+            </div>
+            <div class="index-category-tab-content" id="longimamma6" hidden="hidden">Je mélange un fin terreau pour plantes d'intérieur en retirant tous les gros morceaux et je le mélange avec une bonne quantité de gravillons de quartz et de sable de rivière. <br/>Je garnis le haut de graviers de Jura surtout car j'aime bien le rendu qui fait un peu désertique. <br/>Je le garde dans un pot terre-cuite de petite taille.
+                <a class="species-repotting-info" href="repottingmammillarialongimamma.html" alt="Rempotage mammillaria longimamma" title="Rempotage mammillaria longimamma">Voir comment je rempote les Mammillaria longimamma</a>
+                </div>
+            </div>
+        </section>
+        <hr>
         <section class="index-category-system-tabs">                            <!-- TOLUCA -->
             <nav-tabs class="index-category-nav-tabs" id="toluca">
                 <a href="#toluca1" aria-selected="true">Nom</a>
@@ -74,10 +119,13 @@
             </div>
         </section>
         <hr>
-        <nav class="btn-index-category">                                        <!-- BOUTONS DE NAVIGATION ET TOP -->
+<nav class="btn-index-category">                                                <!-- BOUTONS DE NAVIGATION ET TOP -->
             <button class="styled-btn-gallery"><a href="mammillariagallery.html">Galerie photos de mes Mammillaria</a></button>
             <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
             <button class="styled-btn-welcome"><a href="../index.html">Retourner sur la page d'accueil</a></button>
-        </nav>
-    </body>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
+</nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
+</body>
 </html>

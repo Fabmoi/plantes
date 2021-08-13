@@ -48,6 +48,9 @@ border-spacing: 0;
 #repotting-aeschynanthus-marmoratus {
     background: url("../img/background/othersuspended.jpg") fixed;
 }
+#repotting-aloe-rauhii {
+    background: url("../img/background/aloerauhii.jpg") fixed;
+}
 #repotting-corpuscularia-lehmannii {
     background: url("../img/background/corpuscularialehmannii.jpg") fixed;
 }
@@ -66,6 +69,9 @@ border-spacing: 0;
 #repotting-euphorbia-inconstantia {
     background: url("../img/background/euphorbiainconstantia.jpg") fixed;
 }
+#repotting-euphorbia-polyacantha {
+    background: url("../img/background/euphorbiapolyacantha.jpg") fixed;
+}
 #repotting-ferocactus-stainesii {
     background: url("../img/background/ferocactusstainesii.jpg") fixed;
 }
@@ -75,11 +81,20 @@ border-spacing: 0;
 #repotting-lithops {
     background: url("../img/background/lithops.jpg") fixed;
 }
+#repotting-mammillaria-longimamma {
+    background: url("../img/background/mammillarialongimamma.jpg") fixed;
+}
 #repotting-mammillaria-toluca {
     background: url("../img/background/mammillariatoluca.jpg") fixed;
 }
+#repotting-matucana-polzii{
+    background: url("../img/background/matucanapolzii.jpg") fixed;
+}
 #repotting-notocactus-magnificus {
     background: url("../img/background/notocactus.jpg") fixed;
+}
+#repotting-notocactus-mammulosus {
+    background: url("../img/background/notocactusmammulosus.jpg") fixed;
 }
 #repotting-opuntiamonacanthamonstruosisvariegata {
     background: url("../img/background/opuntiamonacanthamonstruosisvariegata.jpg") fixed;

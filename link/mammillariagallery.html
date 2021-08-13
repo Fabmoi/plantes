@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/css/scrollmenu.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Akaya+Telivigala" rel='stylesheet' type='text/css'/>
     <script type="text/javascript" src="../assets/js/protection.js"></script>
         <title>Galerie photo de mes Mammillaria</title>
@@ -15,14 +16,28 @@
             <div>
                 <h1 class="title-gallery-category" id="top"> Galerie photo de mes Mammillaria</h1>
             </div>
-                <h2 class="sub-title-gallery-category">Végétaux présents ici:
-                    <a href="#anguinea"> elongata anguinea,</a>
-                    <a href="#anguinea"> toluca.</a> 
-                </h2>        
+        <section class="all-menu-scroll">                                       <!-- MENU DÉROULANT -->
+            <ul class="menu-scroll">   
+                <li class="menu-green"><a id="js-menu-change-text">Végétaux présents ici ...</a>
+                <ul>
+                    <li><a href="#">Choisir une plante ...</a>
+                    <ul>
+                        <li><a href="#anguinea">elongata anguinea</a></li>
+                        <li><a href="#longimamma">longimamma</a></li>
+                        <li><a href="#toluca">toluca</a></li>
+                    </ul>
+                    </li>
+                        <li><a href="#top">Haut de la page</a></li>
+                        <li><a href="mammillariaindex.html">Voir les fiches infos</a></li>
+                        <li><a href="../index.html">Retourner sur la page d'accueil</a></li>
+                </ul>
+                </li>
+            </ul>
+        </section>        
     </header>
             <hr>
-            <div class="species-title-gallery-category" id="elongata">elongata
-                <a href="mammillariaindex.html#elongata">Voir la fiche info</a>
+            <div class="species-title-gallery-category" id="anguinea">elongata anguinea
+                <a href="mammillariaindex.html#anguinea">Voir la fiche info</a>
             </div>
             <hr>
     <section>                                                                   <!-- ELONGATA ANGUINEA-->
@@ -32,13 +47,25 @@
         <img class="flex" src="../assets/img/mammillaria/gallery/mammillariaelongata(4).jpg" alt="elongata anguinea" title="elongata anguinea"/>
     </section>
     <hr>
+            <div class="species-title-gallery-category" id="longimamma">longimamma
+                <a href="mammillariaindex.html#longimamma">Voir la fiche info</a>
+            </div>
+            <hr>
+    <section>                                                                   <!-- LONGIMAMMA -->
+        <img class="flex" src="../assets/img/mammillaria/gallery/longimamma(1).jpg" alt="longimamma" title="longimamma"/>
+        <img class="flex" src="../assets/img/mammillaria/gallery/longimamma(2).jpg" alt="longimamma" title="longimamma"/>
+        <img class="flex" src="../assets/img/mammillaria/gallery/longimamma(3).jpg" alt="longimamma" title="longimamma"/>
+        <img class="flex" src="../assets/img/mammillaria/gallery/longimamma(4).jpg" alt="longimamma" title="longimamma"/>
+        <img class="flex" src="../assets/img/mammillaria/gallery/longimamma(5).jpg" alt="longimamma" title="longimamma"/>
+    </section>
+    <hr>
             <div class="species-title-gallery-category" id="toluca">toluca
                 <a href="mammillariaindex.html#toluca">Voir la fiche info</a>
             </div>
             <hr>
-    <section>                                                                   <!-- ELONGATA ANGUINEA-->
-        <img class="flex" src="../assets/img/mammillaria/gallery/mammillariatoluca(1).jpg" alt="elongata anguinea" title="elongata anguinea"/>
-        <img class="flex" src="../assets/img/mammillaria/gallery/mammillariatoluca(2).jpg" alt="elongata anguinea" title="elongata anguinea"/>
+    <section>                                                                   <!-- TOLUCA -->
+        <img class="flex" src="../assets/img/mammillaria/gallery/mammillariatoluca(1).jpg" alt="toluca" title="toluca"/>
+        <img class="flex" src="../assets/img/mammillaria/gallery/mammillariatoluca(2).jpg" alt="toluca" title="toluca"/>
     </section>
 </main>
 <nav class="btn-index-category">                                                <!-- BOUTONS DE NAVIGATION ET TOP -->
@@ -46,5 +73,6 @@
     <button class="styled-btn-top"><a href="#top">Haut de la page</a></button>
     <button class="styled-btn-index"><a href="mammillariaindex.html">Page des Mammillaria</a></button>
 </nav>
+<script type="text/javascript" src="../assets/js/sticky.js"></script>
 </body>
 </html>
