@@ -163,6 +163,13 @@ header {                                                              /* TITRE, 
   display: flex;
   text-shadow: 5px 5px 5px rgb(0,0,0);
   }
+  .changelink {
+    font-size: 100px; 
+    text-align: center; 
+    margin-top: 250px; 
+    background-color: aqua;
+  }
+
         .site-desc {                                                            /* SECTION CONTENANT TITLE, SUB-TITLE ET SUB-SUB-TITLE */
           width: 45%;
           height: min-content;
@@ -449,6 +456,9 @@ main {                                                                /* CONTIEN
                                         }
                                       header {                                                            /* TITRE, SOUS-TITRE, BOUTONS NAVIGATION */          
                                         flex-flow: column;
+                                      }
+                                      .changelink {
+                                        font-size: 50px;
                                       }
                                       .site-desc {                                                        /* SECTION CONTENANT TITLE, SUB-TITLE ET SUB-SUB-TITLE */
                                         width: 95%;
